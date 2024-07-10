@@ -64,7 +64,7 @@ search.addEventListener('click', () =>{
             wind.innerHTML = `${parseInt(json.wind.speed)}Km/h`;
 
             weatherBox.style.display = '';
-            weatherDetails.style.display = '';
+            weatherDetails.style.display = 'flex';
             container.style.height = '40rem';
             });
         });
